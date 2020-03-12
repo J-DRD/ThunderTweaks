@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jordan\\source\\git\\public\\thunderstorms21th\\thundertweaks\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "C:\\Users\\jordan\\source\\repos\\J-DRD\\ThunderTweaks\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jordan\\.gradle\\caches\\transforms-2\\files-2.1\\db247816455a5da7cd6ca75fe28080fa\\preference-1.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\jordan\\.gradle\\caches\\transforms-2\\files-2.1\\6b1b3c10dfdf24a08bc7a42bc107b093\\preference-1.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
