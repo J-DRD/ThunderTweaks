@@ -9,11 +9,11 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfb1b2e8-6ca1-4cd4-a6d4-179c971a4cfd" name="Default Changelist" comment="Polish-up the project, a few extra bit's and pieces, this is a refinement of 1.0.5 and is the last release until any major changes are implemented.">
+    <list default="true" id="cfb1b2e8-6ca1-4cd4-a6d4-179c971a4cfd" name="Default Changelist" comment="Attempt to resolve problem with VCS uploading files which should of been ignored.">
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584031150322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Attempt to resolve problem with VCS uploading files which should of been ignored.">
+      <created>1584032980189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584032980189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <option name="updateInterval" value="30" />
     <option name="updateIssuesCount" value="50" />
     <servers />
@@ -180,7 +187,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Update dependency versions, fix some issues, more todo." />
     <MESSAGE value="Polish-up the project, a few extra bit's and pieces, this is a refinement of 1.0.5 and is the last release until any major changes are implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Polish-up the project, a few extra bit's and pieces, this is a refinement of 1.0.5 and is the last release until any major changes are implemented." />
+    <MESSAGE value="Attempt to resolve problem with VCS uploading files which should of been ignored." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt to resolve problem with VCS uploading files which should of been ignored." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
