@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId 'com.thunder.thundertweaks'
-        minSdkVersion 23
+        applicationId 'com.qr.thundertweaks'
+        minSdkVersion 28
         targetSdkVersion 28
-        versionCode 1040
-        versionName "1.0.4"
+        versionCode 1060
+        versionName "1.0.6"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,7 +29,7 @@ android {
     }
     android.applicationVariants.all { final variant ->
         variant.outputs.all {
-            outputFileName = "ThunderTweaks_v${variant.versionName}.apk"
+            outputFileName = "ThunderTweaksQR_v${variant.versionName}.apk"
         }
     }
 }
@@ -46,9 +46,9 @@ dependencies {
     implementation('com.github.ozodrukh:CircularReveal:1.3.1@aar') {
         transitive = true
     }
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.legacy:legacy-preference-v14:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.apps.dashclock:dashclock-api:2.0.0'

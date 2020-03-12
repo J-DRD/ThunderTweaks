@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thunder.thundertweaks"
-    android:versionCode="1040"
-    android:versionName="1.0.4" >
+    package="com.qr.thundertweaks"
+    android:versionCode="1060"
+    android:versionName="1.0.6" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="28"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
@@ -37,7 +37,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Default.Blue" >
+        android:theme="@style/Theme.Default.Purple.Dark" >
         <activity android:name="com.thunder.thundertweaks.activities.StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
