@@ -528,7 +528,7 @@
   <!-- Misc -->
   <string name="android_logger">Android logging</string>
   <string name="crc">Phần mềm kiểm soát CRC</string>
-  <string name="crc_summary">CRC là một cơ chế nhằm ngăn chặn tham nhũng dữ liệu khi được kích hoạt. Khối dữ liệu có thể mất tới 30% hiệu suất của họ.</string>
+  <string name="crc_summary">CRC là một cơ chế nhằm ngăn chặn tham nhũng dữ liệu khi được kích hoạt. Khối dữ liệu có thể mất tới 30%% hiệu suất của họ.</string>
   <string name="fsync">Fsync</string>
   <string name="fsync_summary">Vô hiệu hóa cho hiệu suất tốt hơn nhưng có nguy cơ mất dữ liệu trong trường hợp hệ thống gặp sự cố.</string>
   <string name="dynamic_fsync">Động Fsync</string>

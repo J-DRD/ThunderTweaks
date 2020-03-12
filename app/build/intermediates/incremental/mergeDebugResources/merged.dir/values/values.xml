@@ -1295,7 +1295,7 @@
     <string name="cpus_on_touch">CPUs on touch</string>
     <string name="cpus_on_touch_summary">Number of CPUs online when touching screen or pressing button.</string>
     <string name="crc">Software CRC control</string>
-    <string name="crc_summary">CRC is a mechanism aiming to prevent data corruption when enabled. Data blocks can lose up to 30% of their performance.</string>
+    <string name="crc_summary">CRC is a mechanism aiming to prevent data corruption when enabled. Data blocks can lose up to 30%% of their performance.</string>
     <string name="create">Create</string>
     <string name="cs_battery">Battery power</string>
     <string name="cs_battery_monitor">Battery Monitor System</string>
@@ -1531,7 +1531,7 @@
     <string name="generic_value">Value</string>
     <string name="generic_value_summary">Current value of the editor. Can be basically anything.</string>
     <string name="gentlefairsleepers">Gentle Fair Sleepers</string>
-    <string name="gentlefairsleepers_summary">Only give sleepers 50% of their service deficit. Disabling this can save a little battery power.</string>
+    <string name="gentlefairsleepers_summary">Only give sleepers 50%% of their service deficit. Disabling this can save a little battery power.</string>
     <string name="gesVib_title">Gesture Vibration</string>
     <string name="gestures">Gestures</string>
     <string name="gh_ad">This is a non commercial ad! Do not take this seriously! Just a funny way to fill the space when an actual ad doesn\'t load (looking at you adblock users).</string>

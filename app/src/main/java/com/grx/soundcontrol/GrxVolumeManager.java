@@ -228,13 +228,13 @@ public class GrxVolumeManager extends RecyclerViewItem {
             mSpeakerController.setListener((progress, refval, refvalposition, step, dif) -> {
                 int dbs = mSpeakerMin + progress*mSpeakerStep;
                 MoroSound.setSpeaker(String.valueOf(dbs),mContext);
-                mSpeakerController.setText(String.valueOf(dbs) + " dB");
+                mSpeakerController.setText(dbs + " dB");
             });
 
             mSpeakerController.getVolumeControlView().setOnChangingProgressListener((progress, dif) -> {
                 int dbs = mSpeakerMin + progress*mSpeakerStep;
                 MoroSound.setSpeaker(String.valueOf(dbs),mContext);
-                mSpeakerController.setText(String.valueOf(dbs) + " dB");
+                mSpeakerController.setText(dbs + " dB");
             });
         }
 

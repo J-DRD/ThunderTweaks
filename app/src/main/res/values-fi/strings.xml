@@ -576,7 +576,7 @@
   <!-- Misc -->
   <string name="android_logger">Android logging</string>
   <string name="crc">Sovellus CRC kontrolliin</string>
-  <string name="crc_summary">CRC on mekaniikka, joka pyrkii torjumaan tiedon korruptoitumista. Data blokit voivat menettää jopa 30% suorituskyvystään.</string>
+  <string name="crc_summary">CRC on mekaniikka, joka pyrkii torjumaan tiedon korruptoitumista. Data blokit voivat menettää jopa 30%% suorituskyvystään.</string>
   <string name="fsync">Fsync</string>
   <string name="fsync_summary">Ota pois käytöstä nopeuttaaksesi tiedostojärjestelmän suorituskykyä. Riskinä tietojen menettäminen, jos järjestelmä kaatuu.</string>
   <string name="dynamic_fsync">Dynaaminen Fsync</string>
