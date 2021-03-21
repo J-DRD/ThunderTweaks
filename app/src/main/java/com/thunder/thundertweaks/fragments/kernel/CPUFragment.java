@@ -808,12 +808,12 @@ public class CPUFragment extends RecyclerViewFragment {
             cpuInputBoostCard.addItem(dms);
         }
 
-		if (CPUBoost.hasCpuBoostFreqHp() && mCPUFreq.getFreqs() != null) {
+		if (mCPUBoost.hasCpuBoostFreqHp() && mCPUFreq.getFreqs() != null) {
             SelectView bighp = new SelectView();
             bighp.setTitle("Boost Freq BIG Cluster");
             // bighp.setSummary(getString(R.string.iib_freq_hp));
             bighp.setItems(mCPUFreq.getAdjustedFreq(getActivity()));
-            bighp.setItem((CPUBoost.getCpuBoostFreqHp() / 1000)
+            bighp.setItem((mCPUBoost.getCpuBoostFreqHp() / 1000)
                     + getString(R.string.mhz));
             bighp.setOnItemSelected((selectView, position, item)
                     -> mCPUBoost.setCpuBoostFreqHp(
@@ -822,12 +822,12 @@ public class CPUFragment extends RecyclerViewFragment {
             cpuInputBoostCard.addItem(bighp);
         }
 
-		if (CPUBoost.hasCpuBoostFreqLp() && mCPUFreq.getFreqs(mCPUFreq.getLITTLECpu()) != null) {
+		if (mCPUBoost.hasCpuBoostFreqLp() && mCPUFreq.getFreqs(mCPUFreq.getLITTLECpu()) != null) {
             SelectView littlelp = new SelectView();
             littlelp.setTitle("Boost Freq LITTLE Cluster");
             // littlelp.setSummary(getString(R.string.iib_freq_lp));
             littlelp.setItems(mCPUFreq.getAdjustedFreq(mCPUFreq.getLITTLECpu(),getActivity()));
-            littlelp.setItem((CPUBoost.getCpuBoostFreqLp() / 1000)
+            littlelp.setItem((mCPUBoost.getCpuBoostFreqLp() / 1000)
                     + getString(R.string.mhz));
             littlelp.setOnItemSelected((selectView, position, item)
                     -> mCPUBoost.setCpuBoostFreqLp(
@@ -836,12 +836,12 @@ public class CPUFragment extends RecyclerViewFragment {
             cpuInputBoostCard.addItem(littlelp);
         }
 
-		if (CPUBoost.hasCpuBoostMaxLp() && mCPUFreq.getFreqs(mCPUFreq.getLITTLECpu()) != null) {
+		if (mCPUBoost.hasCpuBoostMaxLp() && mCPUFreq.getFreqs(mCPUFreq.getLITTLECpu()) != null) {
             SelectView littleml = new SelectView();
             // littleml.setTitle("Boost Max Freq LITTLE Cluster");
             littleml.setSummary(getString(R.string.iib_freq_ml));
             littleml.setItems(mCPUFreq.getAdjustedFreq(mCPUFreq.getLITTLECpu(),getActivity()));
-            littleml.setItem((CPUBoost.getCpuBoostMaxLp() / 1000)
+            littleml.setItem((mCPUBoost.getCpuBoostMaxLp() / 1000)
                     + getString(R.string.mhz));
             littleml.setOnItemSelected((selectView, position, item)
                     -> mCPUBoost.setCpuBoostMaxLp(
@@ -850,12 +850,12 @@ public class CPUFragment extends RecyclerViewFragment {
             cpuInputBoostCard.addItem(littleml);
         }
 
- 		if (CPUBoost.hasCpuBoostMaxPerf() && mCPUFreq.getFreqs() != null) {
+ 		if (mCPUBoost.hasCpuBoostMaxPerf() && mCPUFreq.getFreqs() != null) {
             SelectView bigmp = new SelectView();
             // bigmp.setTitle("Boost Max Freq BIG Cluster");
             bigmp.setSummary(getString(R.string.iib_freq_mp));
             bigmp.setItems(mCPUFreq.getAdjustedFreq(getActivity()));
-            bigmp.setItem((CPUBoost.getCpuBoostMaxPerf() / 1000)
+            bigmp.setItem((mCPUBoost.getCpuBoostMaxPerf() / 1000)
                     + getString(R.string.mhz));
             bigmp.setOnItemSelected((selectView, position, item)
                     -> mCPUBoost.setCpuBoostMaxPerf(

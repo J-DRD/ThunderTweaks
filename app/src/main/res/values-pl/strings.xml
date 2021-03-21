@@ -304,7 +304,7 @@
   <string name="wake_wait_time">Czas oczekiwania na wybudzenie</string>
   <string name="wake_wait_time_summary">Z jakim opóźnieniem należy włączyć dowolne rdzenie.</string>
   <string name="bat_threshold_ignore">Próg baterii do ignorowania obciążenia</string>
-  <string name="bat_threshold_ignore_summary">Nie włączaj rdzeni jeśli %% baterii jest poniżej wybranej wartości.</string>
+  <string name="bat_threshold_ignore_summary">Nie włączaj rdzeni jeśli % baterii jest poniżej wybranej wartości.</string>
   <string name="autosmp">AutoSMP</string>
   <string name="autosmp_summary">Alternatywa dla hotpluga Samsung\'a. Rozwijany przez mrg666. Edytowany przez @nalas XDA.</string>
   <string name="downrate_limits">Zmniejsz Limity</string>
@@ -644,7 +644,7 @@
   <string name="dynamic_fsync">Dynamiczne Fsync</string>
   <string name="dynamic_fsync_summary">Kiedy ekran i ta opcja jest uruchomiona, operacje fsync będą asynchroniczne. Kiedy ekran, będzie wyłączony operacje będą wykonywane synchronicznie.</string>
   <string name="gentlefairsleepers">Gentle Fair Sleepers</string>
-  <string name="gentlefairsleepers_summary">Po wybudzeniu bezczynne aplikacje dostają tylko 50%% swojego deficytu. Wyłączenie tej opcje może zaoszczędzić trochę energii.</string>
+  <string name="gentlefairsleepers_summary">Po wybudzeniu bezczynne aplikacje dostają tylko 50% swojego deficytu. Wyłączenie tej opcje może zaoszczędzić trochę energii.</string>
   <string name="arch_power">Arch Power</string>
   <string name="arch_power_summary">Włącza zależne od architektury funkcje zarządzania/oszczędzania energii.</string>
   <string name="power_suspend_mode">Tryb Oszczędzania energii</string>

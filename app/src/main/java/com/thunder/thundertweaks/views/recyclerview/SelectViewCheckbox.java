@@ -100,13 +100,17 @@ public class SelectViewCheckbox extends ValueView {
     }
 
     private void setCheckBoxesFromInt(){
-        mCheckBoxes[0]= (mCurrValue & 1) != 0;
+        if ((mCurrValue & 1 ) != 0) mCheckBoxes[0]=true;
+        else mCheckBoxes[0] = false;
 
-        mCheckBoxes[1]= (mCurrValue & 2) != 0;
+        if ((mCurrValue & 2 ) != 0) mCheckBoxes[1]=true;
+        else mCheckBoxes[1] = false;
 
-        mCheckBoxes[2]= (mCurrValue & 4) != 0;
+        if ((mCurrValue & 4 ) != 0) mCheckBoxes[2]=true;
+        else mCheckBoxes[2] = false;
 
-        mCheckBoxes[3]= (mCurrValue & 8) != 0;
+        if ((mCurrValue & 8 ) != 0) mCheckBoxes[3]=true;
+        else mCheckBoxes[3] = false;
     }
 
     private void setIntValueFromCheckBoxes(Context context){

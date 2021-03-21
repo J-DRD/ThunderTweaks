@@ -887,8 +887,11 @@ public abstract class RecyclerViewFragment extends BaseFragment {
                 && mForegroundParent.getVisibility() == View.VISIBLE) {
             dismissForeground();
             return true;
-        } else return mDialogParent != null
-                && mDialogParent.getVisibility() == View.VISIBLE;
+        } else if (mDialogParent != null
+                && mDialogParent.getVisibility() == View.VISIBLE) {
+            return true;
+        }
+        return false;
     }
 
     @Override

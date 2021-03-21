@@ -615,7 +615,7 @@
   <string name="dynamic_fsync">Dinamis Fsync</string>
   <string name="dynamic_fsync_summary">Ketika aktif dan layar hidup, operasi fsync menjadi asynchronous. Ketika layar mati, operasi ini menjadi synchronously</string>
   <string name="gentlefairsleepers">Keadilan adil sleepers</string>
-  <string name="gentlefairsleepers_summary">Hanya memberikan 50%% sleepers dari layanan. Menonaktifkan dapat menghemat sedikit daya baterai.</string>
+  <string name="gentlefairsleepers_summary">Hanya memberikan 50% sleepers dari layanan. Menonaktifkan dapat menghemat sedikit daya baterai.</string>
   <string name="arch_power">Kekuatan Arch</string>
   <string name="arch_power_summary">Aktifkan kekuatan fungsi/penghematan spesifik Arch.</string>
   <string name="power_suspend_mode">Modus Penangguh Daya</string>

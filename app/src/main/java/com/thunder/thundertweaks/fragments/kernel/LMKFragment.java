@@ -64,7 +64,7 @@ public class LMKFragment extends RecyclerViewFragment {
         long memTotal = Device.MemInfo.getInstance().getTotalMem() * 1024L / 100L / 4L;
         StringBuilder stringBuilder = new StringBuilder();
         for (int offset : offsets) {
-            stringBuilder.append((int) memTotal * offset).append(",");
+            stringBuilder.append(String.valueOf((int) memTotal * offset)).append(",");
         }
         stringBuilder.setLength(stringBuilder.length() - 1);
         return stringBuilder.toString();

@@ -621,13 +621,13 @@
   <!-- Misc -->
   <string name="android_logger">Android 的日誌記錄</string>
   <string name="crc">軟體CRC控制</string>
-  <string name="crc_summary">CRC是一種機制旨在防止資料損壞時啟動。資料塊可以失去其業績的30％％。</string>
+  <string name="crc_summary">CRC是一種機制旨在防止資料損壞時啟動。資料塊可以失去其業績的30％。</string>
   <string name="fsync">Fsync</string>
   <string name="fsync_summary">禁用系統崩潰時的資料丟失的風險提高檔案系統性能。</string>
   <string name="dynamic_fsync">動態多次的Fsync</string>
   <string name="dynamic_fsync_summary">當啟用時，螢幕是在多次的fsync操作是非同步。當螢幕關閉時，同步完成此操作。</string>
   <string name="gentlefairsleepers">溫柔的公平露宿者</string>
-  <string name="gentlefairsleepers_summary">只給睡眠者50％％的服務赤字。禁用此功能可以節省一點電池電量。</string>
+  <string name="gentlefairsleepers_summary">只給睡眠者50％的服務赤字。禁用此功能可以節省一點電池電量。</string>
   <string name="arch_power">拱的權力</string>
   <string name="arch_power_summary">啟用拱的特定權力的功能儲蓄。</string>
   <string name="power_suspend_mode">暫停的模式電源</string>

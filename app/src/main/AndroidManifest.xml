@@ -31,12 +31,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Default.Purple.Dark"
+        android:theme="@style/Theme.Default.Blue"
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name="com.thunder.thundertweaks.activities.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
@@ -51,6 +52,7 @@
             android:icon="@mipmap/ic_launcher_material">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>

@@ -630,7 +630,7 @@
   <string name="dynamic_fsync">Dynamický Fsync</string>
   <string name="dynamic_fsync_summary">Ak je povolené a je zapnutá obrazovka, fsync operácie sú asynchrónne. Keď je vypnutá obrazovka, táto operácia sa vykonáva synchrónne.</string>
   <string name="gentlefairsleepers">Zdvorilé zaobchádzanie so spiacimi</string>
-  <string name="gentlefairsleepers_summary">Spiacim aplikáciám prideľuje len 50%% nimi požadovaných služieb. Deaktivácia môže ušetriť trochu energie akumulátora.</string>
+  <string name="gentlefairsleepers_summary">Spiacim aplikáciám prideľuje len 50% nimi požadovaných služieb. Deaktivácia môže ušetriť trochu energie akumulátora.</string>
   <string name="arch_power">Arch Power</string>
   <string name="arch_power_summary">Aktivácia funkcií úspory energie Arch.</string>
   <string name="power_suspend_mode">Režim odstavenia výkonu</string>
