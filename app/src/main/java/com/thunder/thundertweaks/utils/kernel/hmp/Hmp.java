@@ -35,7 +35,7 @@ public class Hmp {
 	private static final String DOWN_COMP_ENABLED = "/sys/kernel/hmp/down_compensation_enabled";
 
     public void setHmpProfile(String value, Context context){
-        String hmp[] = value.split(" ");
+        String[] hmp = value.split(" ");
         int up = Utils.strToInt(hmp[0]);
         int down = Utils.strToInt(hmp[1]);
         setUpThreshold(up, context);

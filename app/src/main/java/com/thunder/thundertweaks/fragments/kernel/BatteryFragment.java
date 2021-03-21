@@ -832,13 +832,13 @@ public class BatteryFragment extends RecyclerViewFragment {
         @Override
         public void onReceive(Context context, Intent intent) {
             if (Battery.BATTERY_NODE == null) {
-                mBattery.setValues();
+                Battery.setValues();
             }
             mBatteryLevel = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0);
             mBatteryVoltage = intent.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
             mBatteryCurrent = Utils.strToInt(Utils.readFile(Battery.BATTERY_NODE + "/power_supply/battery/current_now"));
             mBatteryCurrentAvg = Utils.strToInt(Utils.readFile(Battery.BATTERY_NODE + "/power_supply/battery/current_avg"));
-            mBatteryCharSource = mBattery.getChargeSource(context);
+            mBatteryCharSource = Battery.getChargeSource(context);
             mBatteryTemp = intent.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0) / 10D;
             mBatteryStatus = Utils.readFile(Battery.BATTERY_NODE + "/power_supply/battery/status");
             mBatteryHealth = Utils.readFile(Battery.BATTERY_NODE + "/power_supply/battery/health");
